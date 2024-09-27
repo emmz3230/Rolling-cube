@@ -1,5 +1,5 @@
-# r3f-vite-starter
-A boilerplate to build R3F projects
+# 3d Rolling dice
+A rolling dice built using react-three-fiber which import glb file and use json to get data
 
 ```
 yarn
