@@ -1,23 +1,13 @@
-import React, { useRef } from "react";
-import { Canvas } from "@react-three/fiber";
+import React from "react";
+import DiceThrow from "./components/DiceThrow";
 import { OrbitControls } from "@react-three/drei";
-// import { Experience } from "./components/Experience";
-// import DiceContainer from "./components/DiceContainer";
-import Dice2 from "./components/Dice2";
 
 const App = () => {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
-      <Canvas>
-        {/* <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 5, 2]} />
-        <OrbitControls />
-        <DiceContainer /> */}
-        <Dice2 />
-        {/* color attach="background" args={["#ececec"]} />
-        <Experience /> */}
-      </Canvas>
+    <div style={{ width: "100%", height: "100vh" }}>
+      <DiceThrow />
     </div>
   );
 };
+
 export default App;

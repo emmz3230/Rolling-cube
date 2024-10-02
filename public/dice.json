@@ -1,0 +1,46 @@
+{
+  "cubes": [
+    {
+      "diceId": 1,
+      "face": 4
+    }
+  ],
+  "base": [
+    {
+      "price": 10,
+      "dices": [
+        {
+          "diceId": 2,
+          "face": 1,
+          "isMoved": true
+        }
+      ]
+    },
+    {
+      "price": 30,
+      "dices": [
+        {
+          "diceId": 3,
+          "face": 3,
+          "isMoved": true
+        },
+        {
+          "diceId": 4,
+          "face": 3,
+          "isMoved": true
+        },
+        {
+          "diceId": 5,
+          "face": 3,
+          "isMoved": true
+        }
+      ]
+    }
+  ],
+  "params": {
+    "turnNumber": 1,
+    "sessionScore": 40,
+    "score": 150,
+    "mustPlay": true
+  }
+}
