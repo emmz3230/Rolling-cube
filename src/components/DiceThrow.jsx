@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import Dice from "./Dice";
 
 const NUM_DICE = 5; // Total number of dice
-const RADIUS = 4; // Distance from the center
+const RADIUS = 3; // Distance from the center
 
 const DiceThrow = () => {
   const initialDiceValues = Array(NUM_DICE).fill(1); // Initial face value for each dice

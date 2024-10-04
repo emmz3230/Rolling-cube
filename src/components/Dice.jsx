@@ -7,7 +7,7 @@ const Dice = ({ position, onClick }) => {
 
   return (
     <mesh position={position} onClick={onClick}>
-      <primitive object={scene} />
+      <primitive object={scene.clone()} />
     </mesh>
   );
 };
